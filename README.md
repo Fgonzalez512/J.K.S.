@@ -1,26 +1,9 @@
-# README
+# J.K.S. aka Just Keep Scrolling
 
-************TEST***************
+For my Unfamiliar Environment project through Galvanize I created an Instagram clone using Rails. It's my first time in both using the Rails framework and working with the Ruby language and I think it turned out pretty well, especially since we only had a week and half to get it done.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.3.3
 
-Things you may want to cover:
+* Rails version: 5
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Please run "Bundle Install" to install the appropriate Gems and then rake db:migrate to create the database.
