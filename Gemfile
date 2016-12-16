@@ -2,10 +2,6 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-group :development, :test do
-  gem 'sqlite3'
-end
-
 group :production do
   gem 'pg'
 end
