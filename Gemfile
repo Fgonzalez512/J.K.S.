@@ -2,11 +2,13 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-
+group :production do
+  gem 'pg'
+end
 
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -36,7 +38,7 @@ gem "paperclip", "~> 5.0.0"
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
-gem 'acts_as_votable', '~> 0.10.0'  
+gem 'acts_as_votable', '~> 0.10.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
